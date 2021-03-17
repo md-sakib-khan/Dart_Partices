@@ -81,7 +81,7 @@ void main() {
   print(mapName);
 }
 
-getSum(getSet) {
+void getSum(getSet) {
   var sum = 0;
   for (int items in getSet) {
     sum += items;
