@@ -57,6 +57,15 @@ void main() {
   print(hashMap.keys);
   print(hashMap.values);
   print(hashMap);
+
+  var hashSet = new HashSet();
+  hashSet.add("Sakib");
+  hashSet.add("23");
+  hashSet.add("Singing");
+  print(hashSet);
+
+  hashSet.remove("23");
+  print(hashSet);
 }
 
 getSum(getSet) {
