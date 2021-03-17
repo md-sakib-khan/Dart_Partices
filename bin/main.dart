@@ -66,6 +66,19 @@ void main() {
 
   hashSet.remove("23");
   print(hashSet);
+
+  //Mentioning Type of Data to be added in the list
+  List<String> listName = [];
+  listName.add("1st Item");
+  listName.add("200");
+  print(listName);
+
+  // Mentioning Data Type of Set
+  Set<String> setName = new Set();
+  Map<String, String> mapName = new Map();
+
+  mapName["Name"] = "SakibKhan";
+  print(mapName);
 }
 
 getSum(getSet) {
